@@ -44,8 +44,8 @@ public class ScoreListAdapter extends ArrayAdapter<Score> {
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        viewHolder.score1TextView.setText(scoreData.score1);
-        viewHolder.score2TextView.setText(scoreData.score2);
+        viewHolder.score1TextView.setText(String.valueOf(scoreData.score1));
+        viewHolder.score2TextView.setText(String.valueOf(scoreData.score2));
 
         return convertView;
     }

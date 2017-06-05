@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final TextView team1player1 = (TextView)findViewById(R.id.editText);
-        final TextView team1player2 = (TextView)findViewById(R.id.editText2);
-        final TextView team2player1 = (TextView)findViewById(R.id.editText3);
-        final TextView team2player2 = (TextView)findViewById(R.id.editText4);
+        final EditText team1player1 = (EditText)findViewById(R.id.editText);
+        final EditText team1player2 = (EditText)findViewById(R.id.editText2);
+        final EditText team2player1 = (EditText)findViewById(R.id.editText3);
+        final EditText team2player2 = (EditText)findViewById(R.id.editText4);
 
         Button ButtonStart = (Button)findViewById(R.id.button_start);
         ButtonStart.setOnClickListener(new View.OnClickListener() {

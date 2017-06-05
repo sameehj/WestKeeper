@@ -37,7 +37,7 @@ public class ScoresActivity extends AppCompatActivity {
     }
 
     private void UpdatePhotosList(){
-        scoreList.add(new Score(10,10));
+        scoreList.add(new Score(120,10));
         scoreListAdapter.notifyDataSetChanged();
     }
 }
