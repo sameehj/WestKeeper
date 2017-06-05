@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WestKeeper</string>
+    <string name="Team1Player1">Team 1 Player 1</string>
+    <string name="Team1Player2">Team 1 Player 2</string>
+    <string name="Team2Player1">Team 2 Player 1</string>
+    <string name="Team2Player2">Team 2 Player 2</string>
+    <string name="StartGame">Start Game</string>
 </resources>
